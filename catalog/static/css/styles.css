@@ -3,3 +3,43 @@
     padding: 0;
     list-style: none;
 }
+
+/* Style the logout form and button to match sidebar links exactly */
+.sidebar-nav form {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline !important;
+}
+
+.sidebar-nav form button {
+    /* Override Bootstrap's CSS custom properties */
+    --bs-btn-padding-x: 0 !important;
+    --bs-btn-padding-y: 0 !important;
+    --bs-btn-border-width: 0 !important;
+    --bs-btn-font-size: inherit !important;
+    --bs-btn-font-weight: inherit !important;
+    --bs-btn-line-height: inherit !important;
+
+    /* Standard property overrides */
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    text-decoration: none !important;
+    color: inherit !important;
+    background: none !important;
+    background-color: transparent !important;
+    text-align: left !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    font-family: inherit !important;
+    line-height: inherit !important;
+    cursor: pointer !important;
+    vertical-align: baseline !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.sidebar-nav form button:hover {
+    text-decoration: underline !important;
+    color: inherit !important;
+}
