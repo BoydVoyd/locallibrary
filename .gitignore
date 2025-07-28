@@ -331,4 +331,6 @@ pip-selfcheck.json
 backups/
 *.sql
 
+!/scripts/
+
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,django,macos,virtualenv
