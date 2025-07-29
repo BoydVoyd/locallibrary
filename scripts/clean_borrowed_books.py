@@ -35,7 +35,9 @@ if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: python clean_borrowed_books.py <input_fixture> <output_fixture>")
         print(
-            "Example: python clean_borrowed_books.py library_content_only_20250728_120000.json library_content_clean_20250728_120000.json"
+            "Example: python clean_borrowed_books.py "
+            "library_content_only_20250728_120000.json "
+            "library_content_clean_20250728_120000.json"
         )
         sys.exit(1)
 
